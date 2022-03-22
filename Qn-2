@@ -1,0 +1,7 @@
+MVI B, 07
+MVI H, 03
+MOV A, B
+SUB H
+MOV D, A
+OUT 03
+HLT

@@ -1,0 +1,8 @@
+MVI B, 03
+MVI C, 03
+MVI D, 01
+ADD B
+ADD C
+ADD D
+MOV H, A
+HLT
